@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LOG IN / SIGN UP</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="antelope.jpg" type="image/x-icon" />
 </head>
 
 <body>
@@ -13,10 +14,12 @@
         <div class="login">
             <form action="#">
                 <h1>LOGIN</h1>
-                <label for="">Username</label>
-                <input type="text" required>
-                <label for="">Password</label>
-                <input type="password" id="password" required>
+                <label for="#">Username</label>
+                <input type="text" required />
+                <input type="checkbox" id="togglePassword" class="checkbox" />
+                <p>Show Password</p>
+                <label for="#">Password</label>
+                <input type="password" id="password" required />
                 <button>Submit</button>
             </form>
         </div>
@@ -24,16 +27,16 @@
         <div class="sign-up">
             <form action="#">
                 <h1 class="txt">SIGN-UP</h1>
-                <label for="">First Name</label>
-                <input class="input" type="name" required>
-                <label for="">Last Name</label>
-                <input class="input" type="name" required>
-                <label for="">Phone Number</label>
-                <input class="input" type="number" required>
-                <input type="checkbox" id="togglePassword">
+                <label for="#">First Name</label>
+                <input class="input" type="name" required />
+                <label for="#">Last Name</label>
+                <input class="input" type="name" required />
+                <label for="#">Phone Number</label>
+                <input class="input" type="number" required />
+                <input type="checkbox" id="togglePassword" />
                 <p>Show Password</p>
-                <label for="">Password</label>
-                <input class="input" id="password" type="password" required>
+                <label for="#">Password</label>
+                <input  type="password" class="input" id="password" required />
                 <button>Submit</button>
             </form>
         </div>
