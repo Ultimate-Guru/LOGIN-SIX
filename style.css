@@ -30,6 +30,12 @@ p {
     margin-bottom: -66px;
 }
 
+.checkbox {
+    width: 15px;
+    margin-left: 47%;
+    margin-bottom: 7px;
+}
+
 /* LOGIN SECTION */
 .login {
     border: 1px solid black;
